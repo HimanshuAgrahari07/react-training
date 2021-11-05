@@ -7,6 +7,10 @@ class Welcome extends React.Component {
     }
 
     render() {
+        return this.welcomeComponent();
+    }
+
+    welcomeComponent() {
         return <h1>Hello, {this.name}</h1>;
     }
 }
