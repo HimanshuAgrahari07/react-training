@@ -1,20 +1,6 @@
-# Getting Started with Create React App Training
+# [Components and Props](https://reactjs.org/docs/components-and-props.html)
 
-Branch names pattern **number_title** where number --> sequence, and title --> title of the topic
+Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the screen.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### *Note:* Always start component names with a capital letter.
+React treats components starting with lowercase letters as DOM tags. For example, \<div \/>
