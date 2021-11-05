@@ -9,3 +9,10 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+ReactDOM.render(
+  <React.StrictMode>
+    <h1>App</h1>
+  </React.StrictMode>,
+  document.getElementById('root1')
+)

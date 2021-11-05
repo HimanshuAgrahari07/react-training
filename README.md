@@ -1,20 +1,13 @@
-# Getting Started with Create React App Training
+# Rendering Elements
 
-Branch names pattern **number_title** where number --> sequence, and title --> title of the topic
+An element describes what you want to see on the screen
+Unlike browser DOM elements, React elements are plain objects, and are cheap to create.
+React DOM takes care of updating the DOM to match the React elements.
 
-## Available Scripts
+### Rendering an Element into the DOM
+If an app is build completely based on the React, it will have single root element usually
+```JS
+<div id="root"></div>
+```
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+If integrating React into an existing app, you may have as many isolated root DOM nodes as you like
