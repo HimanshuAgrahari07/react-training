@@ -1,20 +1,3 @@
-# Getting Started with Create React App Training
+# [State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
 
-Branch names pattern **number_title** where number --> sequence, and title --> title of the topic
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+State is similar to props, but it is private and fully controlled by the component.
