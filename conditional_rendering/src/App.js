@@ -1,9 +1,9 @@
 import './App.css';
-import ButtonsPage from './Components/ButtonsPage'
+import LoginControl from './Components/LoginControl'
 
 function App() {
   return (
-    <ButtonsPage/>
+    <LoginControl/>
   );
 }
 
