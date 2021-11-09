@@ -34,7 +34,7 @@ class Button extends React.Component {
         return (
             <button onClick={this.handleClick}
             className = {`btn btn-lg btn-block btn-${randomClassName}`}>
-                {this.state.isToggleOn ? this.value : 'OFF'}
+                {this.state.isToggleOn ? this.value : randomClassName}
             </button>
         )
     }
