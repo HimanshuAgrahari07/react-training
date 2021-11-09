@@ -20,7 +20,7 @@ class ButtonsPage extends Component {
 
     render() {
         return (
-            <div>
+            <div className="btn-group">
                 {this.getButtons()}
             </div>
         )

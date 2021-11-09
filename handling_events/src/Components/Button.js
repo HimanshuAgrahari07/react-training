@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 class Button extends React.Component {
     constructor(props) {
         super(props);
-        
         this.value = props.value
         this.handleClick = this.handleClick.bind(this);
     }
