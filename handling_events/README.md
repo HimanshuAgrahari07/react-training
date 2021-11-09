@@ -1,20 +1,23 @@
-# Getting Started with Create React App Training
+# Handling Events
+Handling events with React elements is very similar to handling events on DOM elements. There are some syntax differences:
+- React events are named using camelCase, rather than lowercase.
+- With JSX you pass a function as the event handler, rather than a string.
 
-Branch names pattern **number_title** where number --> sequence, and title --> title of the topic
+Ex: In HTML
+```HTML
+<button onclick="activateLasers()">
+  Activate Lasers
+</button>
+```
 
-## Available Scripts
+While in react
 
-In the project directory, you can run:
+```HTML
+<button onClick={activateLasers}>
+  Activate Lasers
+</button>
+```
 
-### `npm start`
+**Note:** We can not return **false** to prevent default behavior in React
+Instead, we need to call **preventDefault** method explicitly
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.

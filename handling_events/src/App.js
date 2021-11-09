@@ -1,8 +1,9 @@
 import './App.css';
+import ButtonsPage from './Components/ButtonsPage'
 
 function App() {
   return (
-    <h1>Hello World</h1>
+    <ButtonsPage/>
   );
 }
 
