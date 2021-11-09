@@ -20,8 +20,16 @@ class Clock extends React.Component {
         );
     }
 
+    componentDidUpdate() {
+        // Invoked immediately after updating occurs. This method is not called for the initial render.
+    }
+
     componentWillUnmount() {
-        // Called immediately before a component is destroyed
+        /**
+         * Called immediately before a component is destroyed
+         * We should not call setState(), because the component will never be re-rendered.
+         * Once a component instance is unmounted, it will never be mounted again.
+         */
         clearInterval(this.timerID);
     }
 
