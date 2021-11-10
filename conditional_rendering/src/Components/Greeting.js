@@ -7,8 +7,8 @@ class Greeting extends Component {
     }
 
     render() {
-        console.log('Greeting: this.isLoggedIn ==>', this.isLoggedIn)
-        if(this.isLoggedIn) {
+        console.log('Greeting: this.isLoggedIn ==>', this.props.isLoggedIn)
+        if(this.props.isLoggedIn) {
             return <h1>Welcome back!</h1>
         }
 

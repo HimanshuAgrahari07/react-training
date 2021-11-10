@@ -11,17 +11,11 @@ class LoginControl extends Component {
     }
 
     handleLoginClick() {
-        console.log('Login clicked');
-        console.log('state before handleLoginClick: ', this.state.isLoggedIn);
         this.setState({ isLoggedIn: true });
-        console.log('state after handleLoginClick: ', this.state.isLoggedIn);
     }
 
     handleLogoutClick() {
-        console.log('LogOut clicked');
-        console.log('state before handleLogoutClick: ', this.state.isLoggedIn);
         this.setState({ isLoggedIn: false });
-        console.log('state after handleLogoutClick: ', this.state.isLoggedIn);
     }
 
     render() {
